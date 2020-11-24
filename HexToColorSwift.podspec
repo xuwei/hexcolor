@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'hexcolor'
+  s.name             = 'HexToColorSwift'
   s.version          = '1.0.0'
   s.summary          = 'UIColor extension for hexcolor string conversions.'
 
