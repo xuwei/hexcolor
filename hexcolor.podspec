@@ -16,19 +16,20 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.swift_version = '5.0'
+  s.description      =  'UIColor init using hexcolor string. Also adding util method to extract hexString back from UIColor.'
 
-  s.description      = UIColor init using hexcolor string. Also adding util method to extract hexString back from UIColor.
-
-  s.homepage         = 'https://github.com/250538/hexcolor'
+  s.homepage         = 'https://github.com/xuwei/hexcolor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '250538' => 'email.xuwei@gmail.com' }
-  s.source           = { :git => 'https://github.com/250538/hexcolor.git', :tag => s.version.to_s }
+  s.author           = { 'xuwei' => 'email.xuwei@gmail.com' }
+  s.source           = { :git => 'https://github.com/xuwei/hexcolor.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'hexcolor/Classes/**/*'
+  s.exclude_files = 'hexcolor/**/*.plist'
   
   # s.resource_bundles = {
   #   'hexcolor' => ['hexcolor/Assets/*.png']
