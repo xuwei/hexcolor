@@ -1,0 +1,22 @@
+{
+  "name": "hexcolor",
+  "version": "0.1.0",
+  "summary": "A short description of hexcolor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/250538/hexcolor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "250538": "email.xuwei@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/250538/hexcolor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "hexcolor/Classes/**/*"
+}

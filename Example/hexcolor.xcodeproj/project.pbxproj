@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* UIColor+HexToColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* UIColor+HexToColorTests.swift */; };
 		CC7BD905B636D544E06BA294 /* Pods_hexcolor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AC9798CFDA235447F1ED9D /* Pods_hexcolor_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00934B36E3016D09F5CCEB0C /* Pods-hexcolor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hexcolor_Tests.release.xcconfig"; path = "Target Support Files/Pods-hexcolor_Tests/Pods-hexcolor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3D21A636D6EA62DF5C5DACA8 /* hexcolor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = hexcolor.podspec; path = ../hexcolor.podspec; sourceTree = "<group>"; };
+		3D21A636D6EA62DF5C5DACA8 /* hexcolor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = hexcolor.podspec; path = ../hexcolor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* hexcolor_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hexcolor_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7746519ACD67B92903AE3C20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* UIColor+HexToColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexToColorTests.swift"; sourceTree = "<group>"; };
+		7746519ACD67B92903AE3C20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C69D913A0BCA347BA746EF9D /* Pods-hexcolor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hexcolor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-hexcolor_Tests/Pods-hexcolor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1AC9798CFDA235447F1ED9D /* Pods_hexcolor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hexcolor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0606BF734E472540D548F01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E0606BF734E472540D548F01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACEB1AFB9204008FA782 /* UIColor+HexToColorTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -95,7 +95,6 @@
 				C69D913A0BCA347BA746EF9D /* Pods-hexcolor_Tests.debug.xcconfig */,
 				00934B36E3016D09F5CCEB0C /* Pods-hexcolor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -218,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* UIColor+HexToColorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

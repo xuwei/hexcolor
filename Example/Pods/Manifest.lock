@@ -1,0 +1,16 @@
+PODS:
+  - hexcolor (0.1.0)
+
+DEPENDENCIES:
+  - hexcolor (from `../`)
+
+EXTERNAL SOURCES:
+  hexcolor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  hexcolor: 0a6e7f9e0d3f88a7aac13cc4b4313726eaf77e4f
+
+PODFILE CHECKSUM: a3f0fd0104526435753ebdda7bdb89b2d76f4380
+
+COCOAPODS: 1.7.4
